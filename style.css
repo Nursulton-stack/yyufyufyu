@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.big-father{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    width: 900px;
+    height: 600px;
+    background-color: black;
+}
+.father1{
+    width: 220px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.father2{
+    width: 220px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+button{
+    margin: 10px;
+}
+.btn1{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left, #FE7676,#8B5CEF);
+    color: #fff;
+}
+.btn2{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left, #F4F3EE,#F7D3AD);
+    color: #fff;
+}
+.btn3{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#794EF2,#005586);
+    color: #fff;
+}
+.btn4{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#1DE78B,#08AEEA);
+    color: #fff;
+}
+.btn5{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#FAD961,#F76B1C);
+    color: #fff;
+}
+.btn6{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left, #FFFFFFE5,#00000026);
+    color: #fff;
+}
+.btn7{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#00CDBF,#3461D6);
+    color: #fff;
+}
+.btn8{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#F17556,#D61349);
+    color: #fff;
+}
+.btn9{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#F9F586,#96FBC4);
+    color: #fff;
+}
+.btn10{
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to left,#BE50C8,#4158D0);
+    color: #fff;
+}
+
+/* hever button */
+.btn1:hover{
+    background-image: linear-gradient(to left, #FFFFFFE5,#00000026);
+    color: #fff;
+}
+.btn2:hover{
+    background-image: linear-gradient(to left,#00CDBF,#3461D6);
+    color: #fff;
+}
+.btn3:hover{
+    background-image: linear-gradient(to left,#F17556,#D61349);
+    color: #fff;
+}
+.btn4:hover{
+    background-image: linear-gradient(to left,#F9F586,#96FBC4);
+    color: #fff;
+}
+.btn5:hover{
+    background-image: linear-gradient(to left,#BE50C8,#4158D0);
+    color: #fff;
+}
+.btn6:hover{
+    background-image: linear-gradient(to left, #FE7676,#8B5CEF);
+    color: #fff;
+}
+.btn7:hover{
+    background-image: linear-gradient(to left, #F4F3EE,#F7D3AD);
+    color: #fff;
+}
+.btn8:hover{
+    background-image: linear-gradient(to left,#794EF2,#005586);
+    color: #fff;
+}
+.btn9:hover{
+    background-image: linear-gradient(to left,#1DE78B,#08AEEA);
+    color: #fff;
+}
+.btn10:hover{
+    background-image: linear-gradient(to left,#FAD961,#F76B1C);
+    color: #fff;
+}
